@@ -47,7 +47,7 @@ import Fur4 from "@/components/images/furniture/Captura de pantalla 2025-10-31 1
 
 //Panaderia
 import Logopp from "@/components/images/logop.png"
-import PanaderiaImg from "@/components/images/file_2025-10-31_03.44.01.png"
+
 
 
 
@@ -78,16 +78,16 @@ export default function Projects() {
       images: [PerrooImg, PerroImg, PerroImg2],
       tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Full-stack"],
       features: [
-        "Plataforma E-commerce completa",
-        "Catálogo de productos dinámico",
-        "Carrito de compras y checkout seguro",
-        "Autenticación de usuarios",
-        "Diseño responsive y moderno (UI/UX)",
-        "Renderizado del lado del servidor (SSR) para optimización",
+        "Full e-commerce platform",
+        "Dynamic product catalog",
+        "Shopping cart and secure checkout",
+        "User authentication",
+        "Responsive, modern design (UI/UX)",
+        "Server-side rendering (SSR) for optimization",
       ],
       githubLink: "https://github.com/Tangodownd",
       fullDescription:
-        "Este proyecto es una plataforma de e-commerce full-stack, construida desde cero con un stack moderno que incluye Next.js, TypeScript y Tailwind CSS. La aplicación ofrece una experiencia de compra completa, desde la exploración de productos por categorías hasta un proceso de pago seguro. Implementa renderizado del lado del servidor para un rendimiento óptimo y un diseño completamente responsive que se adapta a cualquier dispositivo, garantizando una interfaz de usuario limpia y moderna.",
+        "This project is a full‑stack e‑commerce platform built from scratch using a modern stack that includes Next.js, TypeScript, and Tailwind CSS. The app provides a complete shopping experience—from browsing products by categories to a secure checkout process. It implements server‑side rendering (SSR) for optimal performance and a fully responsive design that adapts to any device, ensuring a clean and modern user interface.",
     },
     {
       id: 2,
@@ -134,7 +134,7 @@ export default function Projects() {
       description:
         "Conversational commerce with NLU, semantic search, and order orchestration with stock validation.",
       image: Logopp,
-      images: [PanaderiaImg],
+      images: [Logopp],
       tags: ["Laravel (PHP)", "Vue 3", "MySQL", "Node.js (Express)", "FastAPI (Python)", "FAISS/pgvector", "Twilio WhatsApp API", "scikit-learn"],
       features: [
         "RAG + NLU chatbot for catalog browsing and queries",
@@ -356,12 +356,7 @@ export default function Projects() {
                     View Code
                   </a>
                 </Button>
-                <Button asChild>
-                  <a href={selectedProject.demoLink} target="_blank" rel="noopener noreferrer">
-                    <ExternalLink className="h-4 w-4 mr-2" />
-                    Live Demo
-                  </a>
-                </Button>
+
               </div>
             </div>
           </DialogContent>
