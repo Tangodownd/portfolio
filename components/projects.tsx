@@ -46,7 +46,7 @@ import Fur3 from "@/components/images/furniture/Captura de pantalla 2025-10-31 1
 import Fur4 from "@/components/images/furniture/Captura de pantalla 2025-10-31 111040.webp"
 
 //Panaderia
-import Logop from "@/components/images/Logop.png"
+import Logopp from "@/components/images/Logop.png"
 import PanaderiaImg from "@/components/images/file_2025-10-31_03.44.01.png"
 
 
@@ -133,7 +133,7 @@ export default function Projects() {
       shortDescription: "E-commerce enhanced with a RAG-powered WhatsApp chatbot.",
       description:
         "Conversational commerce with NLU, semantic search, and order orchestration with stock validation.",
-      image: Logop,
+      image: Logopp,
       images: [PanaderiaImg],
       tags: ["Laravel (PHP)", "Vue 3", "MySQL", "Node.js (Express)", "FastAPI (Python)", "FAISS/pgvector", "Twilio WhatsApp API", "scikit-learn"],
       features: [
