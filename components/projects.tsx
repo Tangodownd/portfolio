@@ -46,7 +46,7 @@ import Fur3 from "@/components/images/furniture/Captura de pantalla 2025-10-31 1
 import Fur4 from "@/components/images/furniture/Captura de pantalla 2025-10-31 111040.webp"
 
 //Panaderia
-import Logopp from "@/components/images/Logop.png"
+import Logopp from "@/components/images/logop.png"
 import PanaderiaImg from "@/components/images/file_2025-10-31_03.44.01.png"
 
 
