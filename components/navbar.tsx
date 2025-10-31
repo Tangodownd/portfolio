@@ -54,15 +54,20 @@ export default function Navbar() {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navLinks.map((link) => (
-              <button
-                key={link.name}
-                onClick={() => scrollToSection(link.href)}
-                className="text-muted-foreground hover:text-foreground transition-colors"
-              >
-                {link.name}
-              </button>
+              link.name === "Projects" ? (
+                <Button key={link.name} onClick={() => scrollToSection(link.href)}>
+                  {link.name}
+                </Button>
+              ) : (
+                <button
+                  key={link.name}
+                  onClick={() => scrollToSection(link.href)}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  {link.name}
+                </button>
+              )
             ))}
-            <Button>Resume</Button>
           </nav>
 
           {/* Mobile Navigation Toggle */}
@@ -78,15 +83,20 @@ export default function Navbar() {
           <div className="container mx-auto px-4 py-4">
             <nav className="flex flex-col space-y-4">
               {navLinks.map((link) => (
-                <button
-                  key={link.name}
-                  onClick={() => scrollToSection(link.href)}
-                  className="text-muted-foreground hover:text-foreground transition-colors py-2 text-left"
-                >
-                  {link.name}
-                </button>
+                link.name === "Projects" ? (
+                  <Button key={link.name} className="w-full" onClick={() => scrollToSection(link.href)}>
+                    {link.name}
+                  </Button>
+                ) : (
+                  <button
+                    key={link.name}
+                    onClick={() => scrollToSection(link.href)}
+                    className="text-muted-foreground hover:text-foreground transition-colors py-2 text-left"
+                  >
+                    {link.name}
+                  </button>
+                )
               ))}
-              <Button className="w-full">Resume</Button>
             </nav>
           </div>
         </div>
