@@ -71,26 +71,6 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
-      title: "Modern Pet Store E-commerce Platform",
-      shortDescription: "A custom programming language compiler with optimization features.",
-      description: "A custom programming language compiler with advanced optimization features.",
-      image: PerrooImg,
-      images: [PerrooImg, PerroImg, PerroImg2],
-      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Full-stack"],
-      features: [
-        "Full e-commerce platform",
-        "Dynamic product catalog",
-        "Shopping cart and secure checkout",
-        "User authentication",
-        "Responsive, modern design (UI/UX)",
-        "Server-side rendering (SSR) for optimization",
-      ],
-      githubLink: "https://github.com/Tangodownd",
-      fullDescription:
-        "This project is a full‑stack e‑commerce platform built from scratch using a modern stack that includes Next.js, TypeScript, and Tailwind CSS. The app provides a complete shopping experience—from browsing products by categories to a secure checkout process. It implements server‑side rendering (SSR) for optimal performance and a fully responsive design that adapts to any device, ensuring a clean and modern user interface.",
-    },
-    {
-      id: 2,
       title: "Website & E-commerce: Furniture Store",
       shortDescription: "Modern storefront with product variants, cart, and secure checkout.",
       description: "Next.js storefront with SSR/SEO, admin CMS, and payment integration for a furniture brand.",
@@ -107,6 +87,25 @@ export default function Projects() {
       githubLink: "https://github.com/Tangodownd",
       fullDescription:
         "A full-featured furniture e-commerce built on Next.js and TypeScript. It includes a rich catalog with variants (size, material, finish), inventory tracking, a performant cart and secure Stripe checkout. The admin CMS allows editors to manage products, collections, pricing, and media. SSR and structured metadata improve SEO and performance. The UI uses Tailwind and shadcn/ui components to ensure a consistent, accessible experience across devices.",
+    },
+    {
+      id: 2,
+          title: "Conversational Assistant & BI: Farmacia Internacional C.A",
+      shortDescription: "Pharmacy ops with a RAG assistant and demand forecasting.",
+      description: "Natural-language queries, stock optimization, and analytics for faster decision-making.",
+      image: Img1,
+      images: [Img1, Img3, Img4, Img2],
+      tags: ["Node.js (Express, Jest)", "Vue 3 (Cypress)", "FastAPI (Python, PyTest)", "PostgreSQL + pgvector", "Pandas", "NumPy", "scikit-learn", "TensorFlow/Keras", "OpenAI API"],
+      features: [
+        "RAG assistant for inventory, sales, and expiration queries",
+        "ML models for demand forecasting and stock optimization",
+        "Decision automation inside the chat flow",
+        "Designed for non-technical staff (high adoption)",
+        "Integrated data and analytics for faster decisions",
+      ],
+      githubLink: "https://github.com/Tangodownd",
+      fullDescription:
+        "I designed and developed a pharmacy management platform with a conversational assistant that enables natural-language queries for inventory, sales, and expiration dates. We integrated Machine Learning models for demand forecasting and stock optimization, automating routine decisions within the chat and improving planning accuracy. Focused on accessibility for non-technical staff, it improved the speed and quality of operational decisions.",
     },
     {
       id: 3,
@@ -129,6 +128,46 @@ export default function Projects() {
     },
     {
       id: 4,
+
+          title: "Finances Mobile App: Tango Wallet",
+      shortDescription: "Personal finance tracking for income, expenses, and debts.",
+      description: "A privacy-first mobile app to manage budgets, categories, recurring payments, and debt repayment—no fund transfers involved.",
+      image: Logo,
+      images: [TImg1, TImg2, TImg3],
+      tags: ["React Native", "Expo", "TypeScript", "Zustand/Redux", "SQLite/Realm", "Node.js (optional sync)", "Notifications"],
+      features: [
+        "Fast expense/income entry with categories and tags",
+        "Budgets with alerts and monthly rollover",
+        "Recurring payments and bill reminders (local notifications)",
+        "Debt tracker with repayment plans and progress",
+        "Offline-first storage with optional cloud backup/sync",
+      ],
+      githubLink: "#",
+      fullDescription:
+        "Tango Wallet is a personal finance app focused on clarity, control, and privacy. It lets users capture expenses/income quickly, organize them with categories and tags, plan monthly budgets, and receive reminders for bills and recurring payments. A dedicated debt module helps structure repayment plans and track progress. Data is stored locally (SQLite/Realm) for speed and privacy, with optional encrypted cloud sync—no money transfers or external accounts are involved.",
+    },
+    {
+      id: 5,
+          title: "Modern Pet Store E-commerce Platform",
+      shortDescription: "A custom programming language compiler with optimization features.",
+      description: "A custom programming language compiler with advanced optimization features.",
+      image: PerrooImg,
+      images: [PerrooImg, PerroImg, PerroImg2],
+      tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "shadcn/ui", "Full-stack"],
+      features: [
+        "Full e-commerce platform",
+        "Dynamic product catalog",
+        "Shopping cart and secure checkout",
+        "User authentication",
+        "Responsive, modern design (UI/UX)",
+        "Server-side rendering (SSR) for optimization",
+      ],
+      githubLink: "https://github.com/Tangodownd",
+      fullDescription:
+        "This project is a full‑stack e‑commerce platform built from scratch using a modern stack that includes Next.js, TypeScript, and Tailwind CSS. The app provides a complete shopping experience—from browsing products by categories to a secure checkout process. It implements server‑side rendering (SSR) for optimal performance and a fully responsive design that adapts to any device, ensuring a clean and modern user interface.",
+    },
+    {
+      id: 6,
       title: "E-commerce + Conversational AI: Panadería Orquídea de Oro",
       shortDescription: "E-commerce enhanced with a RAG-powered WhatsApp chatbot.",
       description:
@@ -146,44 +185,6 @@ export default function Projects() {
       githubLink: "https://github.com/Tangodownd",
       fullDescription:
         "An existing e-commerce was augmented with a conversational commerce system powered by RAG and NLU. The assistant classifies intents, performs semantic catalog search, and orchestrates the order flow with stock validation and checkout. Integrated with Twilio for WhatsApp, it enables interactive confirmations and automatic receipts—automating over 70% of customer interactions and increasing WhatsApp conversion.",
-    },
-    {
-      id: 5,
-      title: "Conversational Assistant & BI: Farmacia Internacional C.A",
-      shortDescription: "Pharmacy ops with a RAG assistant and demand forecasting.",
-      description: "Natural-language queries, stock optimization, and analytics for faster decision-making.",
-      image: Img1,
-      images: [Img1, Img3, Img4, Img2],
-      tags: ["Node.js (Express, Jest)", "Vue 3 (Cypress)", "FastAPI (Python, PyTest)", "PostgreSQL + pgvector", "Pandas", "NumPy", "scikit-learn", "TensorFlow/Keras", "OpenAI API"],
-      features: [
-        "RAG assistant for inventory, sales, and expiration queries",
-        "ML models for demand forecasting and stock optimization",
-        "Decision automation inside the chat flow",
-        "Designed for non-technical staff (high adoption)",
-        "Integrated data and analytics for faster decisions",
-      ],
-      githubLink: "https://github.com/Tangodownd",
-      fullDescription:
-        "I designed and developed a pharmacy management platform with a conversational assistant that enables natural-language queries for inventory, sales, and expiration dates. We integrated Machine Learning models for demand forecasting and stock optimization, automating routine decisions within the chat and improving planning accuracy. Focused on accessibility for non-technical staff, it improved the speed and quality of operational decisions.",
-    },
-    {
-      id: 6,
-      title: "Finances Mobile App: Tango Wallet",
-      shortDescription: "Personal finance tracking for income, expenses, and debts.",
-      description: "A privacy-first mobile app to manage budgets, categories, recurring payments, and debt repayment—no fund transfers involved.",
-      image: Logo,
-      images: [TImg1, TImg2, TImg3],
-      tags: ["React Native", "Expo", "TypeScript", "Zustand/Redux", "SQLite/Realm", "Node.js (optional sync)", "Notifications"],
-      features: [
-        "Fast expense/income entry with categories and tags",
-        "Budgets with alerts and monthly rollover",
-        "Recurring payments and bill reminders (local notifications)",
-        "Debt tracker with repayment plans and progress",
-        "Offline-first storage with optional cloud backup/sync",
-      ],
-      githubLink: "#",
-      fullDescription:
-        "Tango Wallet is a personal finance app focused on clarity, control, and privacy. It lets users capture expenses/income quickly, organize them with categories and tags, plan monthly budgets, and receive reminders for bills and recurring payments. A dedicated debt module helps structure repayment plans and track progress. Data is stored locally (SQLite/Realm) for speed and privacy, with optional encrypted cloud sync—no money transfers or external accounts are involved.",
     },
   ]
 
